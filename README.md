@@ -20,6 +20,8 @@ intent.putExtra(Constant.TYPE, Constant.UPLOAD_PHOTO);
 
 裁剪的界面也与微信的裁剪界面一致、
 
+3.图片选择之后的压缩操作已经完成好大小控制在 300k以内 
+
 
 ![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-15-58-42.png) 
 ![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-15-59-35.png)
