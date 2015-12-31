@@ -17,4 +17,5 @@
     <color name="common_actionbar_tip_txt_color">#A2A19D</color>
     <color name="trance2">#50ffffff</color>
     <color name="white">#ffffffff</color>
+    <color name="white1">#ffffff</color>
 </resources>
