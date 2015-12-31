@@ -3,6 +3,9 @@
 
 主界面为GalleryActivity,通过设置intent的参数来选择选择图片，还是单图的裁剪
 
+图片的加载选择的是 universal-image-loader库
+可以根据需求更换，具体的实现类在GridViewAdapter中
+
 1.选择多张图片
 
 Intent intent = new Intent(this, GalleryActivity.class); 
