@@ -23,6 +23,7 @@ intent.putExtra(Constant.TYPE, Constant.UPLOAD_PHOTO);
 3.图片选择之后的压缩操作已经完成好大小控制在 300k以内 
 
 
-![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-15-58-42.png) 
-![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-15-59-35.png)
+![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-16-48-45.png)
+![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-16-48-50.png)
+![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-16-49-06.png)
 ![](https://github.com/haibuzou/WeixinPic/raw/master/art/Screenshot_2015-12-31-15-59-56.png)
