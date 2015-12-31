@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_actionbar_right_btn_color">#ff9900</color>
+    <!-- 右边按钮颜色 -->
+    <color name="common_actionbar_txt_color">#000000</color>
+    <!-- 文字颜色 -->
+    <color name="common_actionbar_txt_press_color">#7f000000</color>
+    <!-- 文字按下颜色 -->
+    <color name="common_actionbar_bg_color">#f8f8f8</color>
+    <!-- actionbar背景色 -->
+    <color name="common_actionbar_right_btn_trans">#ffcc00</color>
+    <color name="common_actionbar_tip_bg">#FBEBEB</color>
+    <color name="common_actionbar_button_color">#007aff</color>
+    <color name="common_actionbar_button_press_color">#7f007aff</color>
+    <color name="common_actionbar_line">#cbcbcb</color>
+    <color name="common_actionbar_right_txt_color">#666666</color>
+    <color name="common_actionbar_tip_txt_color">#A2A19D</color>
+    <color name="trance2">#50ffffff</color>
+    <color name="white">#ffffffff</color>
+</resources>

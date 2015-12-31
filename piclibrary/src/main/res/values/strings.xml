@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WeixinPic</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="choose_img">choose_pic</string>
+
+    <string name="clip_img">clip_pic</string>
+
+
+    <string name="pic_title">图片</string>
+    <string name="pic_confirm">确定</string>
+    <string name="pic_action_settings">Settings</string>
+    <string name="pic_name">图片</string>
+    <string name="pic_all">所有图片</string>
+    <string name="pic_sending">正在发送中</string>
+    <string name="no_pic">没有扫描到图片</string>
+</resources>

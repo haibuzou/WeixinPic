@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa">
+
+    <com.haibuzou.piclibrary.view.ActionbarView
+        android:id="@+id/pic_cutimage_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.haibuzou.piclibrary.view.ClipImageLayout
+        android:layout_below="@id/pic_cutimage_actionbar"
+        android:id="@+id/id_clipImageLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

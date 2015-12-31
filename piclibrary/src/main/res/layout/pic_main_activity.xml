@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <RelativeLayout
+        android:id="@+id/pic_title"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="#e0000000"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/pic_layout"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/pic_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/pic_actionbar_up_indicator" />
+
+            <ImageView
+                android:id="@+id/pic_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/pic_arrow"
+                android:background="@drawable/pic_signup_chose_line" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@id/pic_layout"
+            android:text="图片"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/pic_confirm"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/pic_finish_button_highlight"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+    </RelativeLayout> -->
+
+    <com.haibuzou.piclibrary.view.ActionbarView
+        android:id="@+id/pic_action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:id="@+id/pic_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/pic_action_bar"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipChildren="true"
+        android:gravity="center"
+        android:horizontalSpacing="3dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="3dip"></GridView>
+
+    <RelativeLayout
+        android:id="@+id/pic_bottom_ly"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#e0000000"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/pic_choose_dir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:text="所有图片"
+            android:textColor="@drawable/hr_back_text_selector_white" />
+    </RelativeLayout>
+
+</RelativeLayout>

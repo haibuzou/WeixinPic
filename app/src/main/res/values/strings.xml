@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WeixinSample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="choose_pic">choose_pic</string>
+    <string name="clipe_pic">clipe_pic</string>
+</resources>
